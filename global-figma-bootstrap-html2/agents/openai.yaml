@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Bootstrap HTML"
+  short_description: "Convert Figma designs to Bootstrap HTML"
+  default_prompt: "Use $figma-bootstrap-html to convert this Figma design into responsive Bootstrap HTML/CSS."
