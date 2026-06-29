@@ -56,6 +56,7 @@ description: Convert Figma designs into production-ready responsive HTML5 and Bo
 <!-- Testimonial Section -->
 <!-- Footer -->
 ```
+
 - Match the Figma design as closely as possible:
   - Font family
   - Font size
@@ -107,19 +108,14 @@ Use only images from the project's local images folder.
 Never use:
 
 ```html
-http://localhost:3845
-https://...
-Figma image URLs
-Base64 images
-Placeholder images
-Stock images from web
-Generated images with AI
+http://localhost:3845 https://... Figma image URLs Base64 images Placeholder
+images Stock images from web Generated images with AI
 ```
 
 Use this image path format everywhere:
 
 ```html
-<img src="images/about-img.png" alt="About Image">
+<img src="images/about-img.png" alt="About Image" />
 ```
 
 If the Figma design includes an image that is not already in the local images folder, stop and ask for the missing asset instead of using remote, placeholder, stock, base64, or AI-generated imagery.
@@ -165,26 +161,26 @@ Do NOT approximate layouts.
 
 Follow exactly:
 
-* Section order
-* Content hierarchy
-* Typography
-* Font family
-* Font size
-* Font weight
-* Line height
-* Letter spacing
-* Colors
-* Spacing
-* Margin
-* Padding
-* Grid structure
-* Border radius
-* Shadows
-* Hover states
-* Alignment
-* Component sizing
-* Image proportions
-* Desktop and mobile behavior
+- Section order
+- Content hierarchy
+- Typography
+- Font family
+- Font size
+- Font weight
+- Line height
+- Letter spacing
+- Colors
+- Spacing
+- Margin
+- Padding
+- Grid structure
+- Border radius
+- Shadows
+- Hover states
+- Alignment
+- Component sizing
+- Image proportions
+- Desktop and mobile behavior
 
 The final output should visually match the Figma design with pixel-perfect accuracy.
 
@@ -194,35 +190,34 @@ If any design inconsistency appears between existing HTML and Figma, prioritize 
 
 ## HTML & Component Rules
 
-* Follow the existing project HTML structure and naming conventions.
-* Reuse existing components whenever possible.
-* Do not create unnecessary wrappers.
-* Keep markup clean and semantic.
-* Maintain scalable architecture.
+- Follow the existing project HTML structure and naming conventions.
+- Reuse existing components whenever possible.
+- Do not create unnecessary wrappers.
+- Keep markup clean and semantic.
+- Maintain scalable architecture.
 
 ---
 
 ## CSS Rules
 
-* Put all custom styles inside:
+- Put all custom styles inside:
 
 ```text
 style.css
 ```
 
-* Use CSS variables for:
+- Use CSS variables for:
+  - colors
+  - typography
+  - spacing
+  - radius
+  - transitions
 
-  * colors
-  * typography
-  * spacing
-  * radius
-  * transitions
+- Keep styles modular and section-wise.
 
-* Keep styles modular and section-wise.
+- Avoid duplicated CSS.
 
-* Avoid duplicated CSS.
-
-* Keep media queries grouped at the end.
+- Keep media queries grouped at the end.
 
 ---
 
@@ -238,25 +233,22 @@ Do NOT place custom scripts inside HTML pages unless specifically required.
 
 Requirements:
 
-* Use Vanilla JavaScript by default.
-* Use jQuery only when necessary.
-* Write reusable functions.
-* Validate elements before execution.
-* Keep functions modular.
-* Avoid duplicate event listeners.
-* Use event delegation where applicable.
-* Maintain clean naming conventions.
+- Use Vanilla JavaScript by default.
+- Use jQuery only when necessary.
+- Write reusable functions.
+- Validate elements before execution.
+- Keep functions modular.
+- Avoid duplicate event listeners.
+- Use event delegation where applicable.
+- Maintain clean naming conventions.
 
 Example:
 
 ```javascript
-const element =
-document.querySelector(
-'.selector'
-);
+const element = document.querySelector(".selector");
 
-if(element){
-// functionality
+if (element) {
+  // functionality
 }
 ```
 
@@ -268,27 +260,27 @@ Every JavaScript interaction should feel smooth and polished.
 
 Apply smooth behavior where appropriate:
 
-* smooth transitions
-* smooth scrolling
-* fade effects
-* subtle transforms
-* smooth open/close states
-* hover transitions
-* stagger animations
-* loading transitions
+- smooth transitions
+- smooth scrolling
+- fade effects
+- subtle transforms
+- smooth open/close states
+- hover transitions
+- stagger animations
+- loading transitions
 
 Preferred tools:
 
-* CSS transitions
-* GSAP
-* ScrollTrigger
+- CSS transitions
+- GSAP
+- ScrollTrigger
 
 Avoid:
 
-* sudden jumps
-* abrupt state changes
-* excessive animations
-* laggy interactions
+- sudden jumps
+- abrupt state changes
+- excessive animations
+- laggy interactions
 
 Animations should improve UX and must not reduce performance.
 
@@ -300,17 +292,17 @@ Implement functionality whenever required by design:
 
 Examples:
 
-* sliders
-* tabs
-* accordions
-* filtering
-* modals
-* tooltips
-* counters
-* forms
-* menus
-* animations
-* interactions
+- sliders
+- tabs
+- accordions
+- filtering
+- modals
+- tooltips
+- counters
+- forms
+- menus
+- animations
+- interactions
 
 Use existing project patterns first before creating new implementations.
 
@@ -329,3 +321,6 @@ Deliver:
 5. Smooth interactions
 6. Maintainable structure
 7. Clean reusable code
+8. askjfhkaghjkhadjksfhl
+9. asfbajkqsgfjkgajksfgjkagsf
+10. ahsfkhadsghjkasdgjkh
