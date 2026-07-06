@@ -321,6 +321,3 @@ Deliver:
 5. Smooth interactions
 6. Maintainable structure
 7. Clean reusable code
-8. askjfhkaghjkhadjksfhl
-9. asfbajkqsgfjkgajksfgjkagsf
-10. ahsfkhadsghjkasdgjkh
